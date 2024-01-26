@@ -1,0 +1,108 @@
+/* Reset some default browser styles */
+* {
+  /* box-sizing: border-box; */
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+background-color: rgb(247, 242, 242);
+color: #d42929;
+padding: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.head1 img{
+  width: 300px;
+  height: 50px;
+  background-color: #fff0f0;
+  margin-right: 400px;
+}
+nav ul {
+list-style: none;
+display: flex;
+gap: 40px;
+}
+
+nav li {
+margin-right: 20px;
+
+}
+
+nav a {
+text-decoration: none;
+color: black;
+
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1636955816868-fcb881e57954?auto=format&fit=crop&w=1440");
+  background-size: cover;
+
+text-align: center;
+padding: 140px 0;
+color: rgb(255, 183, 183);
+}
+
+.hero h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 18px;
+margin-bottom: 30px;
+}
+.task h2{
+  text-align: center;
+}
+.task1 h2{
+  margin-top: 60px;
+
+}
+.task10{
+  display:flex ;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 70px;
+ 
+}
+.task11 img{
+  height: 300px;
+  width: 350px;
+
+}
+.task12 img{
+  height: 300px;
+  width: 350px;
+  
+}
+.task13 img{
+  height: 300px;
+  width: 350px;
+  
+}
+.cta-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #ff6600;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+background-color: rgb(247, 242, 242);
+color: black;
+text-align: center;
+padding: 10px 0;
+}
